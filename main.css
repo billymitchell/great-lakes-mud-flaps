@@ -301,7 +301,7 @@ body {
 }
 
 .hero.home .top {
-    background-image: url("../images/2X/cover@2x.png");
+    background-image: url("./images/2X/cover@2x.png");
     background-size: cover;
     background-position: 20% 20%;
     background-repeat: no-repeat;
@@ -372,22 +372,22 @@ body {
 }
 
 .mud-flaps .img {
-  background-image: url("../images/2X/IMG_9088@2x.png");
+  background-image: url("./images/2X/IMG_9088@2x.png");
 }
 .slick-disks .img {
-  background-image: url("../images/2X/ChatGPT Image Mar 2, 2026, 11_57_28 AM@2x.png");
+  background-image: url("./images/2X/ChatGPT Image Mar 2, 2026, 11_57_28 AM@2x.png");
 }
 .wheel-chocks .img   {
-  background-image: url("../images/2X/ChatGPT Image Mar 2, 2026, 12_32_00 PM@2x.png");
+  background-image: url("./images/2X/ChatGPT Image Mar 2, 2026, 12_32_00 PM@2x.png");
 }
 .screenprinting .img {
-  background-image: url("../images/2X/ChatGPT Image Mar 2, 2026, 12_42_02 PM@2x.png");
+  background-image: url("./images/2X/ChatGPT Image Mar 2, 2026, 12_42_02 PM@2x.png");
 }
 .die-cutting .img {
-  background-image: url("../images/2X/IMG_9097@2x.png");
+  background-image: url("./images/2X/IMG_9097@2x.png");
 }
 .hot-stamping .img {
-  background-image: url("../images/2X/0ebb4d31-9fd9-43ff-acb8-a4dab3733ef5@2x.png");
+  background-image: url("./images/2X/0ebb4d31-9fd9-43ff-acb8-a4dab3733ef5@2x.png");
 }
 
 .products .img {
@@ -450,14 +450,14 @@ body {
     align-items: center;
     gap: 20px;  
 }
-.factory-../images {
+.factory-./images {
   background-color: var(--yellow);
 }
-.factory-../images .col {
+.factory-./images .col {
   height: 500px;
 }
 
-.factory-../images img {
+.factory-./images img {
   width: 100%;
   height: 100%;
   object-fit: cover;
