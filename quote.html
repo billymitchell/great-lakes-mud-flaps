@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -15,19 +15,19 @@
         content="Tell Great Lakes Mud Flaps about your project and get help with materials, sizes, customization, and pricing.">
     <meta property="og:url" content="https://greatlakesmudflaps.com/quote.html">
     <meta property="og:site_name" content="Great Lakes Mud Flaps">
-    <meta property="og:image" content="https://greatlakesmudflaps.com/images/2X/cover@2x.png">
+    <meta property="og:image" content="https://greatlakesmudflaps.com/images/optimized/hero-home.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Request a Mud Flap Quote | Great Lakes Mud Flaps">
     <meta name="twitter:description"
         content="Tell Great Lakes Mud Flaps about your project and get help with materials, sizes, customization, and pricing.">
-    <meta name="twitter:image" content="https://greatlakesmudflaps.com/images/2X/cover@2x.png">
+    <meta name="twitter:image" content="https://greatlakesmudflaps.com/images/optimized/hero-home.jpg">
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Great Lakes Mud Flaps",
             "url": "https://greatlakesmudflaps.com/",
-            "image": "https://greatlakesmudflaps.com/images/2X/cover@2x.png",
+            "image": "https://greatlakesmudflaps.com/images/optimized/hero-home.jpg",
             "telephone": "+1-810-715-1424",
             "email": "sales@greatlakesmudflaps.com",
             "description": "Supplier of stock and custom mud flaps, screen printing, die cutting, and hot stamping for fleets and distributors.",
@@ -42,78 +42,83 @@
         }
     </script>
     <link rel="stylesheet" href="main.css">
+    <script src="https://www.google.com/recaptcha/api.js?render=explicit" async defer></script>
 </head>
 
 <body class="quote">
-    <div class="header">
-        <div class="container">
-            <div class="col logo-container">
-                <a href="/"><img src="images/glmf-header-logo.svg" alt="Great Lakes Mud Flaps" class="logo"></a>
-            </div>
-            <div class="col menue-container">
-                <div class="menue">
-                    <div class="menue-item"><a href="/products.html">Products & Services</a></div>
-                    <div class="menue-item"><a href="/about.html">About GLMF</a></div>
-                    <div class="menue-item"><a href="/quote.html">Get A Quote</a></div>
+    <div data-site-header></div>
+    <main id="main-content">
+        <section class="quote-page" aria-labelledby="quote-title">
+            <div class="container">
+                <h1 id="quote-title" class="page-title">Request a Mud Flap Quote</h1>
+                <div class="section-header">
+                    <span class="header-left" aria-hidden="true">&gt;&gt;</span>
+                    <h2>We Are Here To Help</h2>
+                    <span class="header-right" aria-hidden="true">&lt;&lt;</span>
                 </div>
-                <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false"
-                    aria-controls="mobileMenu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </button>
-                <div class="mobile-menu" id="mobileMenu" hidden>
-                    <a href="/products.html">Products & Services</a>
-                    <a href="/about.html">About GLMF</a>
-                    <a href="/quote.html">Get A Quote</a>
+                <p class="page-intro">
+                    Need pricing or help choosing the right mud flaps? Tell us a little about your project and we will
+                    guide you to the best materials, sizes, and customization options.
+                </p>
+                <p class="page-intro page-intro--emphasis">
+                    Fill out the form below and our team will connect with you as soon as possible.
+                </p>
+                <div class="quote-form">
+                    <form class="contact-form" method="post" enctype="multipart/form-data"
+                        data-recaptcha-site-key="YOUR_RECAPTCHA_SITE_KEY">
+                        <div class="contact-form-grid">
+                            <div class="form-field">
+                                <label for="contact-name">Name</label>
+                                <input type="text" id="contact-name" name="name" autocomplete="name" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="contact-company">Company</label>
+                                <input type="text" id="contact-company" name="company" autocomplete="organization">
+                            </div>
+                            <div class="form-field form-field-full">
+                                <label for="contact-email">Email</label>
+                                <input type="email" id="contact-email" name="email" autocomplete="email" required>
+                            </div>
+                            <div class="form-field form-field-full">
+                                <label for="contact-description">Project Description</label>
+                                <textarea id="contact-description" name="description"
+                                    placeholder="Tell us about sizes, materials, printing, quantities, or anything else we should know."
+                                    rows="6" required></textarea>
+                            </div>
+                            <div class="form-field form-field-full">
+                                <label for="contact-file">File Attachment</label>
+                                <div class="file-dropzone" data-file-dropzone>
+                                    <input class="contact-form-file-input" type="file" id="contact-file"
+                                        name="attachment" accept=".pdf,.png,.jpg,.jpeg,.svg,.ai,.eps,.doc,.docx"
+                                        aria-describedby="contact-file-help contact-file-status">
+                                    <button type="button" class="file-dropzone-button" data-file-trigger>Choose
+                                        File</button>
+                                    <p class="file-dropzone-copy">Drag and drop a file here, or use the button above.
+                                    </p>
+                                    <p class="file-dropzone-help" id="contact-file-help">
+                                        Attach artwork, dimensions, spec sheets, or reference files if you have them.
+                                    </p>
+                                    <p class="file-dropzone-status" id="contact-file-status" aria-live="polite">No file
+                                        selected</p>
+                                </div>
+                            </div>
+                            <div class="form-field form-field-full recaptcha-field">
+                                <span class="form-field-label">Spam Protection</span>
+                                <div class="recaptcha-panel">
+                                    <div class="recaptcha-widget" data-recaptcha-container></div>
+                                    <p class="recaptcha-help">Complete the reCAPTCHA before sending your request.</p>
+                                    <p class="recaptcha-message" data-recaptcha-message aria-live="polite"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="button yellow">Send Request</button>
+                    </form>
                 </div>
             </div>
-        </div>
-    </div>
-    <main>
-        <div class="container">
-            <h1 style="text-align: center;">Request a Mud Flap Quote</h1>
-            <div class="section-header">
-                <div class="header-left">&gt;&gt;</div>
-                <h2>We’re here to help</h2>
-                <div class="header-right">&lt;&lt;</div>
-            </div>
-            <p style="text-align: center;">
-                Need pricing or help choosing the right mud flaps? Tell us a little about your project and we’ll guide
-                you to the best
-                materials, sizes, and customization options.
-            </p>
-            <p style="text-align: center; font-weight: bold;">
-                Fill out the form below and our team will connect with you
-                as soon as possible.
-            </p>
-            <div class="quote-form">
-
-            </div>
-        </div>
-
+        </section>
     </main>
-    <div class="footer">
-        <img src="images/2X/2@2x.png" alt="road" class="fluid">
-        <div class="container columns-1-1-1">
-            <div class="col">
-                3201 Haggerty Hwy<br>
-                Commerce, MI 48390
-            </div>
-            <div class="col">
-                <div class="inner">
-                    <a href="/"><img src="images/glmf-footer-logo.svg" alt="Great Lakes Mud Flaps"
-                            class="logo fluid"></a>
-
-                </div>
-            </div>
-            <div class="col" style="text-align: right;">
-                (810) 715-1424<br>
-                sales@greatlakesmudflaps.com
-            </div>
-        </div>
-    </div>
-    <script src="main.js" async defer></script>
+    <div data-site-footer></div>
+    <script src="main.js" defer></script>
 </body>
 
 </html>
