@@ -1,7 +1,7 @@
 const navigationItems = [
-  { href: '/products.html', label: 'Products & Services' },
-  { href: '/about.html', label: 'About GLMF' },
-  { href: '/quote.html', label: 'Get A Quote' }
+  { href: 'products.html', label: 'Products & Services' },
+  { href: 'about.html', label: 'About GLMF' },
+  { href: 'quote.html', label: 'Get A Quote' }
 ];
 
 function renderNavigationLinks(linkClass) {
@@ -15,7 +15,7 @@ function renderSiteChrome() {
     '<a class="skip-link" href="#main-content">Skip to content</a>',
     '<header class="site-header">',
     '  <div class="container site-header__container">',
-    '    <a href="/" class="site-brand__link" aria-label="Great Lakes Mud Flaps home">',
+    '    <a href="index.html" class="site-brand__link" aria-label="Great Lakes Mud Flaps home">',
     '      <img src="images/glmf-header-logo.svg" alt="Great Lakes Mud Flaps" class="logo">',
     '    </a>',
     '    <nav class="site-nav" aria-label="Primary">',
@@ -49,7 +49,7 @@ function renderSiteChrome() {
     '      <p>Commerce, MI 48390</p>',
     '    </address>',
     '    <div class="site-footer__column site-footer__column--brand">',
-    '      <a href="/" class="site-footer__logo-link" aria-label="Great Lakes Mud Flaps home">',
+    '      <a href="index.html" class="site-footer__logo-link" aria-label="Great Lakes Mud Flaps home">',
     '        <img src="images/glmf-footer-logo.svg" alt="Great Lakes Mud Flaps" class="site-footer__logo">',
     '      </a>',
     '    </div>',

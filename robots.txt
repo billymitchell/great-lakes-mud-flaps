@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://greatlakesmudflaps.com/sitemap.xml
+Sitemap: https://billymitchell.github.io/great-lakes-mud-flaps/sitemap.xml
